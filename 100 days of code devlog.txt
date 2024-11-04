@@ -1,0 +1,279 @@
+
+100 days of coding
+
+the 1st 7 days of my coding jourunal for my nethack game
+100 days of code devlog
+
+code goal: get better at C without copying other peoples code
+
+
+Day 1: I coded a calculator using C I had to download something called msys2 which didn't really work thanks
+
+to UAC in windows so i moved the file i coded into my samba server and grabbed it from my virtual Debian machine
+
+i then used gcc to compile the calculator the coded i used was based on a website called https://www.programiz.com/c-programming/examples/calculator-switch-case
+
+I need to beable to create my own code at some point but I am hoping this is a good first step I think for tomorrow's project I will make an random number generator
+
+
+Day2: Decided to make a Nethack game in C though i had to do some schoolwork today so all i ended up coded for this project was "hello world"
+
+I am hoping to import this nethack game to 3DS homebrew the 3ds already has angband and there are issues with it that make it seem like it wasn't made for 3ds
+
+I also leanred about ncurses and how to compile with it for the sake of not forgetting the commands in Linux to compile it the command is gcc -filename-.c -lncurses
+
+and to run it the command is ./a.out
+
+
+Day3: I didn't do to much today but i managed to get both a player character and a maze going
+
+I have not compiled it yet so there may be errors i plan to check tomorrow
+
+
+Day4: i finished the first video tutorial of many ( i feel slow) but i was able to implement some button functionality as well as a very simple player character as far as buttons go though
+
+i only have it set to quit when u hit q
+
+I am hoping to implement a consist hub area now that i know how to code rooms for nethack i want the player to have a familiar experience even if it is
+
+really simple graphically speaking that way i feel like it would keep people playing longer i am also trying to figure out what sort of plot nethack will
+
+have maybe something cliche like an evil wizard?
+
+
+Day5: Had a busy day at the family shop and school so barely had enough time to squeeze an hours worth of work but i did manage to code some of the "WASD" movement for the player
+
+i am also already half way through this tutorial.
+
+
+Day6: managed to finish the player movement the player in this case being a simple "@" symbole he can move around but since areas dont have any form of collision nor
+
+any real checks the play not only can walk through walls but leaves "."in its path because it is coded to change "@" to a "." as the player character moves i am almost done with part 2
+
+of the tutorial and hoping part 3 will teach me how to fix this i am hoping once i flesh out the properties a bit more i can start implementing my ideas.
+
+
+Day7:I did some debugging and i had managed to debug most of my code myself i plant to make the collision soon sorry i dont have to much to say but most of todays coding was spent debugging
+
+so gcc would compile my code.
+
+
+Day 8:  got the ceiling working today sorry for if days 8-11 have weird text but i just lost the recorded days and im retyping what i can
+
+
+Day9: managed to get collision and i am fleshing out the checks
+
+
+
+Day 10: fleshed out the checks a bit more and also started to work on the randomizer
+
+
+
+day 11: managed to make the room randomizer
+
+
+
+day 12: just lost the devlogs for the last week so deinitly ended  frustrated but i managed to finish off the tutorial part i was on i have gotten the room to randomly generate (sorta) i figured once i get the randomizer going i plan to add the main hub area soon
+
+
+
+
+day 13: i may have lost this weeks dev logs but i think i got the randomizer (not sure its an actual randomizer and its more a fill and the floors and roof code) working but i need to compile to check its been a while since i last compiled my code so i plan to be debugging alot tomorrow i sorta feel weird that i dont understand my coding but i think overtime ill understand better i feel pretty dumb that im going so slow and that i dont know where to add
+my own code too but im sure ill figure it out i only have 86 more days to get good but i know i will 
+
+
+day 14: managed to finish the ACTUAL room generator and finished the video i was on i know i had planned to both compile and debug as well also probs need to finally put the logs up on my website but ill do it tomorrow im tired
+
+i also think i am far enough in to make my hub world as well so ill attempt to do that soon i just want to see how my randomizer works 
+
+
+
+day 15: didn't do much my fears were right though upon debugging my code has SO many bugs so i have to debug it before i can finally compile it i fixed some errors but i have had a very busy day today so all i got done in this project
+was move it too my file server and attempt to compile and some minor debugging 
+
+
+day16: managed to do some debugging but the file wasn't updating when i moved so i had to do the same things several times so far tho as far as learning C goes i am so confused and have alot of research ahead of me im worried i am going WAY to slow but ill get there sooner or later ill figure it out i just learned what malloc and demalloc does one is for allocating memory and the other is deallocating memory what i need to figure out is where exactly things goo allocating where my intigers go because so far it seems like i have to put them in specific places and i dont understand how where or why it goes where it goes and the amount of my own code iv added is minimal at best
+
+
+
+
+
+day 17: still debugging my code and i learned that you dont need ; at the end of commands or whatever the thingies before the start of an array are called but i got some errors related to it i felt like i didn't really accomplish much aside from a few debugginh things sorry for the mostly incoherent entry im going to bed GOOD NIGHT
+
+
+
+
+
+
+day 18: I fixed some stuff in my code im still debugging and i just figured out some of the stuff in my room arrays uses () instead of [] so i fixed that i also had to add a bunch of missing ";" at the end of some of my stuff i intend to finish debugging tomorrow and the goal is by at least day 20 ill be back to adding more stuff and actually test my code
+
+
+
+
+day 19: i managed to fix a bunch of errors in my arrays and added ; where they needed to go but im struggling to figure out how to properly define and use the mvinch in my code thankfully gcc is such a good compiler 
+it gave me examples on how i can properly do this so at least i have a starting point on where to start fixing shit but for now ill probably procrastinate by continuing to fix the easy shit
+
+
+
+
+day 20: had a rough day today so i couldn't squash all the bugs in gcc but i think i got rid of the minor ones and a friend taught me to some new things about pointers i also made an attempt to properly define mvinch thanks to the 
+help of the gcc compiler maybe tomorrow ill be in a better mood
+
+
+
+
+
+day 21: im struggeling to solve the harder errors i have but today was one of those day i didn't do much but its pretty late and i hadn't had much time to really code but all the smaller errors have been fixed and now im working on the harder errors 
+
+
+
+
+Day 22: didn't manage to change much im confused on what gcc is giving me weird error corrections that if i do exactly as it says would cause syntax errors
+ may need to ask for some help on it from someone
+
+
+
+day 23: i got help today but i still dont understand the mvinch is wrong because i have conflicting statments in my code and im starting to wonder if im even cut out for this
+
+
+
+day24: haven't made any progress im trying to figure out how to fix my code idk where to look exactly but the erros im getting so for is Nethack.c:238:27: error: macro "mvinch" passed 3 arguments, but takes just 2
+  238 | int mvinch(stdscr, (y),(x))
+      |                           ^
+In file included from Nethack.c:1:
+/usr/include/curses.h:1332: note: macro "mvinch" defined here
+ 1332 | #define mvinch(y,x)                     mvwinch(stdscr,(y),(x))
+      | 
+Nethack.c:242:9: error: expected declaration specifiers or ‘...’ before ‘switch’
+  242 |         switch(mvinch()) /* why is this not using argument*/
+      |         ^~~~~~
+Nethack.c:242:23: error: macro "mvinch" requires 2 arguments, but only 1 given
+  242 |         switch(mvinch()) /* why is this not using argument*/
+      |                       ^
+/usr/include/curses.h:1332: note: macro "mvinch" defined here
+ 1332 | #define mvinch(y,x)                     mvwinch(stdscr,(y),(x))
+      | 
+Nethack.c:260:9: error: ‘user’ undeclared (first use in this function)
+  260 |         user->yPosition = y;
+      |         ^~~~
+Nethack.c:260:9: note: each undeclared identifier is reported only once for each function it appears in
+Nethack.c:266:1: error: expected statement before ‘)’ token
+  266 | )
+      | ^
+Nethack.c:266:1: error: expected declaration or statement at end of input
+
+
+
+still trying to figure out how to fix errors on line 242 and 238 specifically hopefully i can get these last 4 errors
+
+
+
+
+day 24: still stuck debugging maybe i should learn to stop copying and figure out these concepts
+
+
+day 25: i ended up spending the whole day coding and i managed to fix all the errors most of it was cause i wasn't using arguments right and i also managed to fix more minor and hidden syntax errors i also got a minor logic error which i promptly fixed 
+
+
+
+day 26: didn't  do too much added and am now attempting to learn structs and added some to my existing code
+
+
+
+
+
+day 27: i have been doing alot of copy pasting in accordance with the yt man i need to change anything referring to xposition or yposition into position.x or position.y but ill finish that up tomorrow
+
+
+
+
+
+
+
+day 28: I managed to change everything labeled xpostition or yposition with position.x or position.y didn't do too much afterwards
+
+
+
+
+
+day29: after adding the new stuff to replace xand ypostion i have come across a whole new set of issues i have been trying to sort out
+
+day 30: added my own arrow key functionality too it by adding the case command to the handle input array but it works backwards for some reason im gonna have to try to figure that out soon
+
+
+day 31: got the arrow keys working and im now working on the doors for the game
+
+day32:still woking on the the doors hopefully expect to get it working soon
+
+day 33: i barely made any progress on the doors got too busy with school but i did add at least some code i feel very behind in all this so i def need to get a move on
+
+
+day 34: still making progress on the room generation i compiled what code i had and fixed minor errors i also spent a good portion of my time uploading days 8 - 33 on my website 
+hopefully i make more progress tomorrow
+
+day 35: managed to make the draw door function there are bugs i need to fix before it properly works but ill paste the code i used after i finished getting it working
+
+
+
+
+
+day 36: got the drawroom function working but the doors themselves are out of reach for the player so ill have to fix and debug that tomorrow
+
+
+day 37: did some debugging and experimentation with my code turns out i messed up my code for a 3rd room i forgot about 
+
+day 38: changed array values so i can get the rooms to work didn't spend too much time on it though i was pretty usy as of today
+
+day 39: IM STILL ON PART FRIGGIN 6 OF THE VIDEO its been several days but according to my compiler the lins referring to x and y position in line 200 of my code wants me to use ->x as opposed to .x 
+ for reference the sections look to the vein of mvprintw(room->doors[0].y, room->doors[0].x, "+");
+mvprintw(room->doors[1].y, room->doors[1].x, "+");
+mvprintw(room->doors[2].y, room->doors[2].x, "+");
+mvprintw(room->doors[3].y, room->doors[3].x, "+");
+
+
+
+
+day 40: manage to do a lot of studying but i didn't do much coding outside of the -> i plan to have part 6 of yt done by day 42
+ by then my game will be more fleshed out 
+
+
+
+
+day 41: need to compike the code but its pretty late out hoping to have this video over  by tomorrow so i can finally get further in my project
+ 
+
+day 42: finished the door programming had to edit the code a bit to offset the corners(since the player cant reach them) next thing is to add is hallways  the video to show me this is 15 minutes so i plan too 
+get it done faster than the video i just finished i am approaching day 50 so i need to speed up my progress a bit 
+
+
+
+day 43: mostly worked on connecting the doors to each other so they function like doors didn't do too much outside of that
+
+day 44: testing some of the code for the hallway generator has been weird so i have been trying to slowly fix it by working backwards but i am hoping tomorrow i will get further than what i worked on
+
+day 45 : had to take 2 days off to catch up with school but i did manage to get some coding in and fix why this connectdoors line isn't working
+
+day 46: been having issues keeping up with coding still thanks to school but as of recent i have been trying to figure out how to fix these weird errors that the yt man isn't getting i am hoping i can get some help soon
+
+
+day 47: i managed to comment out a few lines of code to get connectDoors(Position * doorOne, Position * doorTwo);
+working according to gcc there is an expected expression where position is but yt man seem to have it exactly as i do so i have no idea what could be happening
+
+day 48: may of spent too long on what was basically placeholder text but connectDoors(rooms[0]->doors[3], rooms[1]->doors[2]); which is giving me less errors so hopefully 
+i fixed my issues and can continue my project
+
+day 49: i am nowhere near my goal but i did manage to get the code working tho i commented out room structure which cause all the rooms i made to vanish (shocker ik but it didn't for yt man)
+hope to make more progress soon next day will be my halfway mark
+
+
+day 50: started on a while loop to connect the doors not to much happened still working on it  
+
+
+
+
+
+
+
+
+
+
